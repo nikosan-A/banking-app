@@ -1,0 +1,11 @@
+/workspaces/banking-app/src/main/java/com/example/banking/config/DatabaseConfig.java
+/workspaces/banking-app/src/main/java/com/example/banking/config/SecurityConfig.java
+/workspaces/banking-app/src/main/java/com/example/banking/config/WebConfig.java
+/workspaces/banking-app/src/main/java/com/example/banking/controller/AuthController.java
+/workspaces/banking-app/src/main/java/com/example/banking/controller/BankingController.java
+/workspaces/banking-app/src/main/java/com/example/banking/controller/DashboardController.java
+/workspaces/banking-app/src/main/java/com/example/banking/controller/TransactionController.java
+/workspaces/banking-app/src/main/java/com/example/banking/entity/Transaction.java
+/workspaces/banking-app/src/main/java/com/example/banking/entity/User.java
+/workspaces/banking-app/src/main/java/com/example/banking/repository/TransactionRepository.java
+/workspaces/banking-app/src/main/java/com/example/banking/repository/UserRepository.java
