@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.gcashapp.CashTransferTest" time="0.119" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspaces/banking-app/GcashAppFinal/target/test-classes:/workspaces/banking-app/GcashAppFinal/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="session.topDirectory" value="/workspaces/banking-app/GcashAppFinal"/>
+    <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/17.0.18-amzn/lib"/>
+    <property name="sun.java.command" value="/workspaces/banking-app/GcashAppFinal/target/surefire/surefirebooter-20260420040315205_3.jar /workspaces/banking-app/GcashAppFinal/target/surefire 2026-04-20T04-03-15_075-jvmRun1 surefire-20260420040315205_1tmp surefire_0-20260420040315205_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/workspaces/banking-app/GcashAppFinal/target/test-classes:/workspaces/banking-app/GcashAppFinal/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.0/junit-jupiter-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.0/junit-jupiter-engine-5.10.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/codespace"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/usr/local/sdkman/candidates/java/17.0.18-amzn"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/workspaces/banking-app/GcashAppFinal"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/workspaces/banking-app/GcashAppFinal/target/surefire/surefirebooter-20260420040315205_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.18+9-LTS"/>
+    <property name="user.name" value="codespace"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.8.0-1044-azure"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.18.9.1"/>
+    <property name="localRepository" value="/home/codespace/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.18"/>
+    <property name="user.dir" value="/workspaces/banking-app/GcashAppFinal"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.18+9-LTS"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testPolymorphicOperationArray" classname="com.gcashapp.CashTransferTest" time="0.031">
+    <system-out><![CDATA[[TEST] Running: Cash-In
+[SUCCESS] PHP 200.00 added. Balance: PHP 12500.75 → PHP 12700.75
+[TEST] Running: Cash-In
+[SUCCESS] PHP 200.00 added. Balance: PHP 12700.75 → PHP 12900.75
+[TEST] Running: Cash-Transfer
+[SUCCESS] PHP 50.00 sent to User #3. Your balance: PHP 4950.00
+
+  ── ALL TRANSACTIONS (4 records) ──
+  [#1  ] PHP    200.00 | Op2                                 | 2026-04-20 04:03:16 | CASH-IN (external)
+  [#2  ] PHP    200.00 | Op2                                 | 2026-04-20 04:03:16 | CASH-IN (external)
+  [#3  ] PHP     50.00 | SENT – Op3                          | 2026-04-20 04:03:16 | SENT    → User #3
+  [#4  ] PHP     50.00 | RECEIVED – Op3                      | 2026-04-20 04:03:16 | RECEIVED ← User #1
+]]></system-out>
+  </testcase>
+  <testcase name="testCashTransferViaPolymorphicInterface" classname="com.gcashapp.CashTransferTest" time="0.006">
+    <system-out><![CDATA[[TEST] Running: Cash-Transfer
+[SUCCESS] PHP 500.00 sent to User #2. Your balance: PHP 4500.00
+]]></system-out>
+  </testcase>
+  <testcase name="testBothBalancesUpdateCorrectly" classname="com.gcashapp.CashTransferTest" time="0.017">
+    <system-out><![CDATA[  Available Balance: PHP 5000.00
+  Available Balance: PHP 12500.75
+[SUCCESS] PHP 1000.00 sent to User #2. Your balance: PHP 4000.00
+  Available Balance: PHP 4000.00
+  Available Balance: PHP 13500.75
+]]></system-out>
+  </testcase>
+  <testcase name="testAllRestrictionsWithBalanceIntegrity" classname="com.gcashapp.CashTransferTest" time="0.02">
+    <system-out><![CDATA[  Available Balance: PHP 5000.00
+  Available Balance: PHP 12500.75
+[ERROR] Cannot transfer to your own account.
+[ERROR] Amount must be PHP 1.00–50000.00
+[ERROR] Amount must be PHP 1.00–50000.00
+[ERROR] Amount must be PHP 1.00–50000.00
+[ERROR] Recipient (ID: 99) not found.
+[ERROR] Invalid sender ID.
+[ERROR] Invalid recipient ID.
+  Available Balance: PHP 5000.00
+  Available Balance: PHP 12500.75
+]]></system-out>
+  </testcase>
+  <testcase name="testChainedTransfers" classname="com.gcashapp.CashTransferTest" time="0.007">
+    <system-out><![CDATA[  Available Balance: PHP 5000.00
+  Available Balance: PHP 12500.75
+  Available Balance: PHP 300.50
+[SUCCESS] PHP 200.00 sent to User #2. Your balance: PHP 4800.00
+[SUCCESS] PHP 100.00 sent to User #3. Your balance: PHP 12600.75
+  Available Balance: PHP 4800.00
+  Available Balance: PHP 12600.75
+  Available Balance: PHP 400.50
+]]></system-out>
+  </testcase>
+  <testcase name="testTotalMoneyConserved" classname="com.gcashapp.CashTransferTest" time="0.008">
+    <system-out><![CDATA[  Available Balance: PHP 5000.00
+  Available Balance: PHP 12500.75
+[SUCCESS] PHP 500.00 sent to User #2. Your balance: PHP 4500.00
+  Available Balance: PHP 4500.00
+  Available Balance: PHP 13000.75
+]]></system-out>
+  </testcase>
+  <testcase name="testTransferPredicates" classname="com.gcashapp.CashTransferTest" time="0.004"/>
+  <testcase name="testBothTransactionRecordsLogged" classname="com.gcashapp.CashTransferTest" time="0.012">
+    <system-out><![CDATA[[SUCCESS] PHP 500.00 sent to User #2. Your balance: PHP 4500.00
+
+  ── ALL TRANSACTIONS (2 records) ──
+  [#1  ] PHP    500.00 | SENT – Log test                     | 2026-04-20 04:03:16 | SENT    → User #2
+  [#2  ] PHP    500.00 | RECEIVED – Log test                 | 2026-04-20 04:03:16 | RECEIVED ← User #1
+]]></system-out>
+  </testcase>
+</testsuite>

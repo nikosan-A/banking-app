@@ -1,0 +1,6 @@
+/workspaces/banking-app/GcashAppFinal/src/test/java/com/gcashapp/BaseTest.java
+/workspaces/banking-app/GcashAppFinal/src/test/java/com/gcashapp/CashInTest.java
+/workspaces/banking-app/GcashAppFinal/src/test/java/com/gcashapp/CashTransferTest.java
+/workspaces/banking-app/GcashAppFinal/src/test/java/com/gcashapp/CheckBalanceTest.java
+/workspaces/banking-app/GcashAppFinal/src/test/java/com/gcashapp/TransactionsTest.java
+/workspaces/banking-app/GcashAppFinal/src/test/java/com/gcashapp/UserAuthenticationTest.java
